@@ -1,0 +1,14 @@
+package aufgabe1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+			Wortzähler zähler = new Wortzähler();
+		    zähler.neuerSatz("Blaukraut bleibt Blaukraut"
+		            + " und Brautkleid bleibt Brautkleid.");
+		    zähler.gibAus();
+	
+	}
+
+}

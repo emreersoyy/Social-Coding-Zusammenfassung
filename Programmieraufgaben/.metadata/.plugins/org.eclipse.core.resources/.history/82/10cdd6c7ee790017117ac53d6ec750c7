@@ -1,0 +1,41 @@
+package aufgabe1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Woerterzaehlen {
+	
+	 public static boolean isDelimiter(char c,String del) {
+	        int i;
+
+	        // Ist aktuelles Zeichen ein Delimiter?
+	        i=0;
+	        while((i<del.length()) && (c!=del.charAt(i))) {
+	            i++;
+	        }
+	        return (i<del.length());
+	    }
+	 public static int countWords(String s,String del) {
+	        int i;
+	        int wc; // word count
+	        wc=0;
+	        i=0;
+	        while(i<s.length()) {
+	            // Delimiter ueberlesen
+	            while((i<s.length()) && (isDelimiter(s.charAt(i),del))) {
+	                i++;
+	            }
+
+	            // Neues Wort ?
+	            if(i<s.length()) {
+	                wc++;
+	            }
+
+	            // Wort ueberlesen
+	            while((i<s.length()) && (!isDelimiter(s.charAt(i),del))) {
+	                i++;
+	            }
+	        }
+	        return wc;
+}}

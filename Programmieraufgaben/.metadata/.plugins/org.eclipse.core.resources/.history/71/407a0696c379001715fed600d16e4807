@@ -1,0 +1,23 @@
+package aufgabe1;
+
+import java.util.HashMap;
+
+public class Woerterzaehlen {
+	
+	 String[] words = text.split(" ");
+     Arrays.sort(words);
+     
+     int cnt = 1;
+     String actualWord = words[0];
+     for(int i=1;i<words.length;++i){
+         if(!words[i].equals(actualWord)){
+             System.out.println(actualWord+" kommt "+cnt+" mal vor.");
+             actualWord = words[i];
+             cnt = 1;
+         }
+         else{
+             ++cnt;
+         }
+     }
+     System.out.println(actualWord+" kommt "+cnt+" mal vor.");
+}}

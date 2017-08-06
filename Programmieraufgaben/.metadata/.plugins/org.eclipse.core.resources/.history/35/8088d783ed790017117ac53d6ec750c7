@@ -1,0 +1,42 @@
+package aufgabe1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Woerterzaehlen {
+	
+	private Map<String, Integer> wörter;
+
+    public void Wortzähler()
+    {
+        wörter = new HashMap<String, Integer>();
+    }
+
+    public void neuesWort(String wort)
+    {
+        Integer value = wörter.get(wort);
+        int anzahl = 0;
+        if (value != null)
+        {
+            anzahl = value;
+        }
+        wörter.put(wort, anzahl + 1);
+    }
+
+    public void neuerSatz(String satz)
+    {
+        for (String wort : satz.split("\\W+"))
+        {
+            neuesWort(wort);
+        }
+    }
+
+    public void gibAus()
+    {
+        for (Map.Entry<String, Integer> entry : wörter.entrySet())
+        {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+    }
+}
