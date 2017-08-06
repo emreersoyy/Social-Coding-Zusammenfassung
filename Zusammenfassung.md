@@ -28,7 +28,7 @@ Die letzte Veranstaltung war am 19.07.2017 und handelte davon wie man sich in Op
 
 **Fazit zur Veranstaltung**
 
-Das Wahlpflichtfach "Social Coding" war für mich sehr interesant, da es mir gezeigt hat wie interesant es sein kann an einem Projekt mit zu arbeiten aber auch wie eine Community ist und wie man sich am besten verhalten sollte. 
+Das Wahlpflichtfach "Social Coding" war für mich sehr interesant, da es mir gezeigt hat wie interesant es sein kann an einem Projekt mit zu arbeiten aber auch wie eine Community ist und wie man sich am besten zu verhalten sollte. 
 
 
 
