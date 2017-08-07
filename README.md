@@ -5,4 +5,4 @@ Die Programieraufgaben wurden mit dem Editor "Eclipse Mars" geschrieben die Main
 
 Der Quell Code ist auch nochmal in der Wiki dargestellt. 
 
-Meine Martikelnummer lautet 11113003.
+Mein Name ist Yusuf Emre Ersoy und meine Martikelnummer lautet 11113003.
